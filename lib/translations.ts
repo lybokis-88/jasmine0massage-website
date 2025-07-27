@@ -1,0 +1,48 @@
+export type Language = "ko" | "en"
+
+export const translations = {
+  ko: {
+    nav: {
+      about: "소개",
+      programs: "프로그램", 
+      services: "서비스",
+      tours: "투어",
+      gallery: "갤러리",
+      contacts: "연락처",
+      location: "위치",
+    },
+    priceList: "요금표",
+    consultMenu: "상담",
+    kakaoConsult: "카톡상담",
+    whatsappConsult: "WhatsApp상담", 
+    kakaoChannel: "카카오채널",
+    premiumHealing: "프리미엄 힐링",
+    heroTitle: "자스민 마사지",
+    heroSubtitle: "코타키나발루 최고의 마사지 경험",
+    aboutBadge: "전문 마사지",
+    aboutTitle: "왜 자스민 마사지인가?",
+    aboutDescription: "2006년부터 운영되는 코타키나발루 최초의 한인 마사지샵으로, 전문적인 테라피스트와 최고급 시설을 자랑합니다.",
+  },
+  en: {
+    nav: {
+      about: "About",
+      programs: "Programs",
+      services: "Services", 
+      tours: "Tours",
+      gallery: "Gallery",
+      contacts: "Contact",
+      location: "Location",
+    },
+    priceList: "Price List",
+    consultMenu: "Consultation",
+    kakaoConsult: "KakaoTalk",
+    whatsappConsult: "WhatsApp",
+    kakaoChannel: "Kakao Channel", 
+    premiumHealing: "Premium Healing",
+    heroTitle: "Jasmine Massage",
+    heroSubtitle: "The Best Massage Experience in Kota Kinabalu",
+    aboutBadge: "Professional Massage",
+    aboutTitle: "Why Jasmine Massage?",
+    aboutDescription: "Kota Kinabalu's first Korean massage shop since 2006, featuring professional therapists and premium facilities.",
+  },
+}
